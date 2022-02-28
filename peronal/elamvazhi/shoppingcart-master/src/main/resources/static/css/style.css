@@ -1,0 +1,13 @@
+div.container {
+	display: inline-block;
+}
+
+p {
+	text-align: left;
+}
+div.topright {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 18px;
+}
