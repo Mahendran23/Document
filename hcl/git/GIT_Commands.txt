@@ -1,0 +1,72 @@
+GIt
+Git bash  https://www.stanleyulili.com/git/how-to-install-git-bash-on-windows/
+GUI : https://git-scm.com/download/win
+
+https://medium.com/@swinkler/git-workflow-explained-a-step-by-step-guide-83c1c9247f03
+
+git config --global user.name "Mahendran"
+
+git config --global user.email "mahendran_raja2003@rediffmail.com"
+
+git config --global --list
+
+
+ssh-keygen -t rsa -b 4096 -C "mahendran_raja2003@rediffmail.com"
+
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+
+ssh-add C:\Users\mahendranma\.ssh\id_rsa
+
+1.  git bash
+2.git ssl
+3.
+
+git remote add origin https://github.com/Mahendran23/data-structure.git
+
+git config --global http.sslBackend schannel
+
+
+https://github.com/Mahendran23/data-structure
+
+https://hackernoon.com/step-by-step-guide-to-push-your-first-project-on-github-fec1dce574f
+https://www.benkirane.ch/using-git-java-projects/
+https://www.vogella.com/tutorials/EclipseGit/article.html
+https://www.javacodegeeks.com/2018/03/git-tutorial-for-beginners.html
+http://www.geo.uzh.ch/microsite/reproducible_research/post/rr-eclipse-git/
+https://www.vogella.com/tutorials/EclipseGit/article.html
+
+
+git remote add origin https://github.com/hrbenkirane/HelloGit.git
+
+git remote add origin https://github.com/Mahendran23/java-custom-rules.git
+
+
+d82e7b7778ef44b54752ff1290ee056a51bb04f8
+
+
+
+git remote set-url origin https://github.com/Mahendran23/java-custom-rules.git
+
+git remote set-url origin git@github.com:Mahendran23/java-custom-rules.git
+
+
+Ui:
+git@github.com:Mahendran23/java-custom-rules.git
+====================================
+
+git clone git@github.com:Mahendran23/kafka-example.git
+
+git init
+
+git add  src/*
+
+git  commit -m "Initial Commit"
+
+git remote add origin git@github.com:Mahendran23/H2-DB-Examples.git
+
+
+git push -u origin master
+
+
+
+===========================

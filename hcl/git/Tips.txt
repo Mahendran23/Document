@@ -1,0 +1,195 @@
+Show helpful guides that come with Git
+git help -g
+
+Show changes over time for specific file
+git log -p <file_name>
+
+sync with remote, overwrite local changes
+git fetch origin && git reset --hard origin/master && git clean -f -d
+
+List of all files till a commit
+git ls-tree --name-only -r <commit-ish>
+Git reset first commit
+git update-ref -d HEAD
+
+List all the conflicted files
+git diff --name-only --diff-filter=U
+List of all files changed in a commit
+git diff-tree --no-commit-id --name-only -r <commit-ish>
+
+Show both staged and unstaged changes
+git diff HEAD
+List all branches that are already merged into master
+git branch --merged master
+Quickly switch to the previous branch
+git checkout -
+Alternatives:
+
+git checkout @{-1}
+
+List all branches and their upstreams, as well as last commit on branch
+git branch -vv
+Track upstream branch
+git branch -u origin/mybranch
+Delete local branch
+git branch -d <local_branchname>
+Delete remote branch
+git push origin --delete <remote_branchname>
+
+Alternatives:
+
+git push origin :<remote_branchname>
+git branch -dr <remote/branch>
+
+Revert: Undo a commit by creating a new commit
+git revert <commit-ish>
+Reset: Discard commits, advised for private branch
+git reset <commit-ish>
+Reword the previous commit message
+git commit -v --amend
+
+Changing a remote's URL
+git remote set-url origin <URL>
+Get list of all remote references
+git remote
+Alternatives:
+
+git remote show
+Get list of all local and remote branches
+git branch -a
+Get only remote branches
+git branch -r
+
+What changed since two weeks?
+git log --no-merges --raw --since='2 weeks ago'
+Alternatives:
+
+git whatchanged --since='2 weeks ago'
+See all commits made since forking from master
+git log --no-merges --stat --reverse master..
+
+What changed since two weeks?
+git log --no-merges --raw --since='2 weeks ago'
+Alternatives:
+
+git whatchanged --since='2 weeks ago'
+See all commits made since forking from master
+git log --no-merges --stat --reverse master..
+Pick commits across branches using cherry-pick
+git checkout <branch-name> && git cherry-pick <commit-ish>
+Find out branches containing commit-hash
+git branch -a --contains <commit-ish>
+Alternatives:
+
+git branch --contains <commit-ish>
+Git Aliases
+git config --global alias.<handle> <command> 
+git config --global alias.st status
+Saving current state of tracked files without commiting
+git stash
+Alternatives:
+
+git stash save
+
+Rebases 'feature' to 'master' and merges it in to master
+git rebase master feature && git checkout master && git merge -
+Archive the master branch
+git archive master --format=zip --output=master.zip
+Modify previous commit without modifying the commit message
+git add --all && git commit --amend --no-edit
+Prunes references to remote branches that have been deleted in the remote.
+git fetch -p
+Alternatives:
+
+git remote prune origins
+
+Adding a project to repo using subtree
+git subtree add --prefix=<directory_name>/<project_name> --squash git@github.com:<username>/<project_name>.git master
+
+Restore deleted file.
+git checkout <deleting_commit>^ -- <file_path>
+Restore file to a specific commit-hash
+git checkout <commit-ish> -- <file_path>
+Always rebase instead of merge on pull.
+git config --global pull.rebase true
+Alternatives:
+
+#git < 1.7.9
+git config --global branch.autosetuprebase always
+List all the alias and configs.
+git config --list
+
+Add custom editors.
+git config --global core.editor '$EDITOR'
+Auto correct typos.
+git config --global help.autocorrect 1
+Check if the change was a part of a release.
+git name-rev --name-only <SHA-1>
+
+List commits and changes to a specific file (even through renaming)
+git log --follow -p -- <file_path>
+Clone a single branch
+git clone -b <branch-name> --single-branch https://github.com/user/repo.git
+Create and switch new branch
+git checkout -b <branch-name>
+Alternatives:
+
+git branch <branch-name> && git checkout <branch-name>
+
+Get first commit in a branch (from master)
+git log --oneline master..<branch-name> | tail -1
+Alternatives:
+
+git log --reverse master..<branch-name> | head -6
+
+Force push to Remote Repository
+git push -f <remote-name> <branch-name>
+Adding Remote name
+git remote add <remote-nickname> <remote-url>
+List all currently configured remotes
+git remote -v
+Show the author, time and last revision made to each line of a given file
+git blame <file-name>
+
+Group commits by authors and title
+git shortlog
+Forced push but still ensure you don't overwrite other's work
+git push --force-with-lease <remote-name> <branch-name>
+Show how many lines does an author contribute
+git log --author='_Your_Name_Here_' --pretty=tformat: --numstat | gawk '{ add += <!-- @doxie.inject start -->; subs += <!-- @doxie.inject end -->; loc += <!-- @doxie.inject start --> - <!-- @doxie.inject end --> } END { printf "added lines: %s removed lines: %s total lines: %s
+", add, subs, loc }' -
+Alternatives:
+
+git log --author='_Your_Name_Here_' --pretty=tformat: --numstat | awk '{ add += <!-- @doxie.inject start -->; subs += <!-- @doxie.inject end -->; loc += <!-- @doxie.inject start --> - <!-- @doxie.inject end --> } END { printf "added lines: %s, removed lines: %s, total lines: %s
+", add, subs, loc }' - # on Mac OSX
+Revert: Reverting an entire merge
+git revert -m 1 <commit-ish>
+Number of commits in a branch
+git rev-list --count <branch-name>
+Alias: git undo
+git config --global alias.undo '!f() { git reset --hard $(git rev-parse --abbrev-ref HEAD)@{${1-1}}; }; f'
+
+List unpushed git commits
+git log --branches --not --remotes
+Alternatives:
+
+git log @{u}..
+git cherry -v
+
+Logs between date range
+git log --since='FEB 1 2017' --until='FEB 14 2017'
+Exclude author from logs
+git log --perl-regexp --author='^((?!excluded-author-regex).*)
+Generates a summary of pending changes
+git request-pull v1.0 https://git.ko.xz/project master:for-linus
+List references in a remote repository
+git ls-remote git://git.kernel.org/pub/scm/git/git.git
+
+List all git aliases
+git config -l | grep alias | sed 's/^alias\.//g'
+Alternatives:
+
+git config -l | grep alias | cut -d '.' -f 2
+Show git status short
+git status --short --branch
+
