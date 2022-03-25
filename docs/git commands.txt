@@ -1,0 +1,100 @@
+$ git add src/*
+ git commit -m "initial"
+
+
+ git add folder/file.rs
+If you are really sure you want to add all files inside the folder not excluded by ignore rules, you can also do:
+
+git add folder/*
+
+
+Creating a new Branch (git branch <branch-name>)
+$ git branch devel
+
+Switching to a Branch (git checkout <branch-name>)
+
+================
+
+git clone https://github.com/Mahendran23/ShoppingCart.git
+git init
+git add src/*
+git commit -m "initial"
+
+git remote add origin git@github.com:Mahendran23/devguide.git
+
+or
+git remote remove origin
+
+
+git push origin master
+git push origin master --force
+
+https://github.com/Mahendran23/ISGAutomation.git
+
+=======================
+
+
+Delete file from github
+
+it rm --cached Pending1.txt
+
+git commit -m "remove OPP_Pending.txt"
+
+git push origin master
+
+
+
+
+
+
+
+
+
+=========================================
+$ git checkout devel
+Switched to branch 'devel'
+
+Alternatively, you can use "git checkout -b <branch-name>" to create a new branch and switch into the new branch.
+
+You can switch back to the master branch via "git checkout master". The HEAD pointer moves back to the last commit of the master branch, and the working directory is rewinded back to the latest commit on the master branch.
+
+$ git checkout master
+Switched to branch 'master'
+// Check the content of the README.md, which is reminded back to Commit 3
+
+Merging Two Branches (git merge <branch-name>)
+
+$ git reset --hard HEAD~1
+HEAD is now at 7e7cb40 Commit 3
+  // HEAD~1 moves the HEAD pointer back by one commit (-1)
+  // --hard also resets the working tree
+ 
+// Check the file contents
+ 
+$ git merge devel
+Updating 7e7cb40..4848c7b
+Fast-forward
+ README.md | 1 +
+ 1 file changed, 1 insertion(+)
+
+
+
+ Deleting a Merged Branch (git branch -d <branch-name>)
+The merged branch (e.g., devel) is no longer needed. You can delete it via "git branch -d <branch-name>".
+
+$ git branch -d devel
+Deleted branch devel (was a20f002).
+ 
+// Create the development branch again at the latest commit
+$ git branch devel
+
+git revert <commit-name>
+
+
+
+5.10  Viewing the Commit Graph (gitk)
+You can use the "git-gui" "gitk" tool to view the commit graph.
+
+To run the git-gui, you can right-click on the project folder and choose "Git Gui"; or launch the Git-bash shell and run "git gui" command.
+
+To view the commit graph, choose "Repository" ⇒ "Visualize master's history", which launches the "gitk". You can view the details of each commit.

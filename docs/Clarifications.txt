@@ -1,0 +1,26 @@
+Hi Mahendran,
+
+We are unaware of the KAFKA event parameter which need to be sent to Communication BB. As per my understanding it should be Involved party UUID, Customer Id, First Name, Last Name, Email Id, Mobile number and Status as “Customer Onboarded”
+
+It was discussed that KYC BB will also pick this event for Name Screening. Should the above  information be enough for both BB?
+
+Concern:
+We are not getting response from Parties BB for their payload information for various End point which we need to call during Involved party creation. Since we are depending upon them it is difficult to proceed further.
+
+
+Thanks and Regards,
+Sushma
+===================
+Flow and Solution card:
+https://confluence.europe.intranet/display/MBAR/MCB_SAL+-+Set+Omnipin
+Screen Flow:
+https://confluence-modelbank.ing.net/pages/viewpage.action?pageId=98024472&preview=/98024472/98025347/flow_credential_creation%20(1).png
+
+Clarification:
+1.	Scenario, as per screen flow in https://7sodh0.axshare.com/#id=4b0zuo&p=english
+-	When User enters Correct Omnipin in First set of six box followed by matching Omnipin in Second set of six box
+-	And User clicks on "Next" button
+-	And (What makes the application to trigger below error (Screen Shot 1) – please let us know if there is any validation at UI and Middleware level to send error message)
+-	Then error message "Looks like we are not able to create your six digits key. Sorry about that" is displayed
+2.	Details on flow 3.1 Check Permissions
+3.	Confirmation on whether 3.2 Check Limitations, is in scope or not

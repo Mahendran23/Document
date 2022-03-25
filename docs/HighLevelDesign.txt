@@ -1,0 +1,44 @@
+
+1. Scope of the requirements  like   b2b2, b2c, web application or back end job etc..
+2. Who will consume the application/interface depends on the we need to find the API.
+3. Conceptual architecture
+4.Solution architecture
+5.Security architecture
+6. Data architecure
+7.Deployment/Infra architecture
+8. Capture the NFR requirements  based on the use cases.
+9.Capture unit test/integratio test function test/contract test/pact test
+API testing
+
+TPA -- ? is a open platform technology. A place producer can share the services and consumer can combine these servcie into scalable business propositions. It ulimately transfor the way we do business and enable ING to  become a true tech company with a banking license
+
+One Connect is a global API and Streaming management solution for the creation, discovery and secure connectivity of scalable applications  and services enabling our business to combine services faster in new and innovative ways across the bank and third parties.
+One Gate is an authentication, approval and security solution to protect services to safeguard the trust with our users, customers, and third parties.
+One PAM is a unified solution for party agreement management and permissions to store, access and manage data of our 37+ million customers world wide
+API Management
+	Creation of Web APIs (API Design Guidelines & OpenAPI/Swagger Editor)
+	Publication of Web APIs (API Developer Portal)
+	Lifecycle and versioning of Web APIs
+	Controlling access via Subscriptions
+	Nurturing the subscriber community
+Service Mesh
+	Connect, manage, and secure microservices
+	Intelligent Routing and Load Balancing
+	Resilience (shielding from flaky networks and cascading failures)
+	In-Depth Telemetry and Reporting
+Touch Mesh is a service mesh, meaning that it is a dedicated infrastructure/software layer handling (micro)service-to-(micro)service communication in order to provide security, observability and resiliency.
+
+An API endpoint is solely an interface; using HTTP, an API endpoint is identified by the 3-tuple {HTTP method, host, URL Path Template}.
+An API specification is a precise and comprehensive documentation of the API endpoints part of an API. We use OpenAPI/Swagger standard.
+
+design principle
+
+Affordance is a design property that
+communicates how something should be used
+without requiring documentation.
+
+Keep It Simple and Stupid
+
+Outside-in design means you are taking
+design decisions, not from your organizational point
+of view, but from the one of your customers.

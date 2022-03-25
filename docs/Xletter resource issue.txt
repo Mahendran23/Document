@@ -1,0 +1,28 @@
+Gert Expectation/Concern
+
+Team should independenly work without Edwin help as Edwin leaving this prject from july 1st.
+Concern on Ranjan as he does not have enough skill to work.
+
+==========
+Discussed with team identified  few  gaps in application functional knowledge & Technical knowledge.
+
+Every monday knowledge sharing session 
+
+Edwin sharing the functional knowledge based on teh user story team is working on it.
+
+Team is really progressing well but still there are some issue that  we need to discuss it.
+
+Ranjan, 
+    
+    He  does not have java and any other framework skill.
+    He completely depends on  Edwin & Team
+    he does t have  programing & debuging skill.
+    He does not have agile knwledge.
+    he join the project more than 5 months but he did a local setup two weeks  back with team's help 
+    He is  not progressing and he is spiling team's  time.
+
+Overall  he is not fix this project atleast ..  so we need a replacement. so taht slowly we  can replace him.
+
+====================
+
+

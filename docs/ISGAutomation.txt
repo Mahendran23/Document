@@ -1,0 +1,12 @@
+Please find the below url for sample spring app deployed in EC2,
+
+ec2-3-85-39-242.compute-1.amazonaws.com:8080/aT/api/awsTest
+
+
+https://hclo365-my.sharepoint.com/:v:/g/personal/hemnath_nagarajan_hcl_com/EfUcydn7-b9NuapMaLO6INkBFYQU2v07ufCavtRvV-gAZA
+
+Create RSA token to acces sap db
+Install my ql db
+
+???????????? ????????? 
+

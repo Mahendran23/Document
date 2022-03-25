@@ -1,0 +1,49 @@
+1. capture seurity complience
+
+
+Could you please help us with the case study details for the Pega Cloud Migration/Upgrade work done at ING.
+-	Scope of Work
+-	Solution Approach used for Migrate/Upgrade
+-	Team Composition for the Migrate/Upgrade work
+-	Learnings we had
+-	Success Factors
+-	Testing/Automation etc – added if any
+-	Benefits Realized
+-	Application inventory at a high level & various versions of Pega used
+-	Security & Compliance Requirements if any
+-	Timeline take + Number of application that were moved 
+-	Number of Tenants considered for movement – migrate/upgrade
+-	What was done Migrate then Upgrade or vice-versa – reasons if any considered for ING
+-	What was leveraged for Certification / Validation of the application / performance post upgrade/migrate
+-	Typical Risks considered
+-	What is the Pega Upgrade Version 8.4.2? Do we have a list of all the old versions in the landscape – application split with versions
+-	Any improvement done to overcome technical debt
+ 
+- We need it as a case point for one of the customer moving to a private Cloud/AWS setup (Pega on private cloud)
+.\itdtpadmin
+
+$/TarHg3o7
+=======================
+ECS structures
+
+ IAF Squad and CAST Ops Squad Helping OPP
+
+ Overview
+ Objective
+ Scope “as-is” (13 applications; in orange)
+ Scope of Work 
+ Technical Approach
+ Application Inventory High Level & Various Versions of Pega Used
+ Different Pega Version landscape
+ Migration Order
+ List of Application Migrated and Deployment or Go-Live Date 
+ Solution Approach used for Migration -  Lift & Shift
+ Migration Execution Plan Per Tenant
+ Squad Approach : IAF Squad and CAST Ops Squad Helping OPP
+ Team Composition and Indicative Costs
+ Team Structure (Staffing)
+ Governance Structure
+ Risks, Dependencies & Impediments
+ Benefits Realized
+ Performance of Tenants Post Migration
+ Learnings or Things to Improve

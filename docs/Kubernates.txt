@@ -1,0 +1,6 @@
+minikube start --memory 4096 --driver=kvm2
+
+This uses kvm2, which you might need to set up on your system, using the information here: https://minikube.sigs.k8s.io/docs/drivers/kvm2/
+
+setup and install
+https://kubernetes.io/docs/tasks/

@@ -1,0 +1,87 @@
+
+
+Spring IO
+
+Spring IO Website: http://www.spring.io
+Spring Projects: http://spring.io/projects
+Spring Guides: http://spring.io/guides
+Spring Document: http://spring.io/guides
+Spring Boot Docs: http://docs.spring.io/spring-boot/docs/current/ref...
+Spring Boot API: http://docs.spring.io/spring-boot/docs/current/api...
+Spring Boot Docs - http://docs.spring.io/spring-boot/docs/current/ref...
+Spring Boot API - http://docs.spring.io/spring-boot/docs/current/api...
+Spring IO Platform - http://spring.io/projects
+Getting Started Guides - http://spring.io/guides
+
+
+https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2020-12/R/eclipse-jee-2020-12-R-win32-x86_64.zip&mirror_id=105
+download sts :http://dist.springsource.com/release/STS/index.html
+
+
+Create the spring boot project
+
+https://www.springboottutorial.com/creating-spring-boot-project-with-eclipse-and-maven
+
+========
+Spring tutorial https://www.appsdeveloperblog.com/
+https://www.appsdeveloperblog.com/docker-commands-cheat-sheet/
+
+=========
+Spring Initializr http://start.spring.io/ is great tool to bootstrap your Spring Boot projects.
+
+As shown in the image above, following steps have to be done
+
+Launch Spring Initializr and choose the following
+Choose com.in28minutes.springboot as Group
+Choose student-services as Artifact
+Choose following dependencies
+Web
+Actuator
+DevTools
+Click Generate Project.
+This would download a zip file to your local machine.
+
+Unzip the zip file and extract to a folder.
+
+In Eclipse, Click File -> Import -> Existing Maven Project as shown below.
+
+package com.in28minutes.springboot.studentservices;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
+
+@SpringBootApplication
+@ComponentScan(basePackages={"com.in28minutes.springboot"})
+public class StudentServicesApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(StudentServicesApplication.class, args);
+	}
+
+}
+
+package com.in28minutes.springboot.controller;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+ 
+@RestController
+public class HelloWorldController {
+ 
+    @GetMapping("/hello")
+    public String sayHello() {
+        return "Hello Java Code Geeks!";
+    }
+}
+
+application.properties
+server.port: 8082
+server.servlet.context-path: /HelloWorldExample
+
+Feature Toggle:
+https://www.split.io/blog/spring-boot-feature-toggles/#:~:text=Let's%20start%20with%20a%20brief,disable%20features%20in%20your%20application.
+https://github.com/splitio-examples/springboot-demo-flags
+
+Spring transaction
+https://javabeginnerstutorial.com/spring-framework-tutorial/spring-transaction-management-tutorial/

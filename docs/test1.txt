@@ -1,0 +1,91 @@
+HTml 5, How to open a link click me in inline frame link
+<iframe src="https://www.javatpoint.com/" height="300" width="400"></iframe>    
+
+reacthooks : 
+A set of overridable lifecycle hooks that can be used for cross-cutting added behavior on Flux/Mono operators.
+ It allows you to use state and other React features without writing a class. Hooks are the functions which "hook into" React state and lifecycle features from function components. 
+
+
+reatc styling
+
+
+mailto in html5
+	<a href="mailto:example@tutorialspark.com">Send an Email </a>
+
+structure of jwt
+	A JSON web token(JWT) is JSON Object which is used to securely transfer information over the web(between two parties). It can be used for an authentication system and can also be used for information exchange. The token is mainly composed of header, payload, signature. These three parts are separated by dots(.)
+
+typically how many attribue are defined in header
+An HTTP header consists of its case-insensitive name followed by a colon (:), then by its value.
+
+what is react
+	React JS is a JavaScript library used in web development to build interactive elements on websites. 
+what is useCallback in react
+	useCallback is a React Hook which returns a memoized version of the callback function it is passed. This means that the function object returned from useCallback will be the same between re-renders
+
+how to declare a variable in reactjs
+	
+	window.$name = 'king' //global variable
+
+agile task are dived into small time frame
+	Tasks are the smallest unit used in scrum to track work.
+
+how to handle  the task that  cannot finish in 1 sprint in agile
+
+
+what is the agile approach for design early in the project
+
+ just enough design up front gives a good foundation to start from and helps to mitigate risk without wasting unnecessarily time.
+
+agile approach  have in common
+
+
+how to enable ssh in running docker in nginx
+	ssh root@172.17.0.2
+ingress network is defined in collection of rules which allow permmission in kubernate
+
+
+how to create user defined  bridge network  in docker
+	Use the docker network create command to create a user-defined bridge network.
+	$ docker network create my-net.
+	$ docker network rm my-net.
+	$ docker create --name my-nginx \ --network my-net \ --publish 8080:80 \ nginx:latest.
+	$ docker network connect my-net my-nginx.
+	$ docker network disconnect my-net my-nginx.
+
+when start docker container the commond that executes are 
+	The docker run command first creates a writeable container layer over the specified image, and then starts it using the specified command. That is, docker run is equivalent to the API /containers/create then /containers/(id)/start. A stopped container can be restarted with all its previous changes intact using docker start. See docker ps -a to view a list of all containers.
+	command would get access the running docker container 
+	command to lits all pods in all namespace in kubernates
+jwt common claims
+Claim Name	Claim Description
+azp		Authorized party - the party to which the ID Token was issued
+nonce		Value used to associate a Client session with an ID Token
+auth_time	Time when the authentication occurred
+at_hash		Access Token hash value
+
+
+create customer list components
+
+
+
+spring component can be loaded  base on profile
+
+-Dspring.profiles.active=dev
+
+DI
+
+tag doest use placeholder attribute
+============================
+java custom sorted array exampls
+
+in jave array,  element at in two indices can swapped in single operation called move. determine the minimum number of moves required to sort array such that all of the even elements are at the begining of the array and all of the odd elements are at the endo of the array.
+
+
+
+
+write sql query sum of first name and last name should be less that 12. id and name shoud be printer in assecenting order in combining name length
+if two or more have same combined name length sort the result in lexico graphical order of the full names
+
+identify the correct script to change teh shape of div from square to circle on a button click
+

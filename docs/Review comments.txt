@@ -1,0 +1,18 @@
+    
+    why below fields are varchar rather than date in ACCOUNTBRIDGE_ADMIN.TP_MOVEMENT_STATUS
+    
+    AGNT_CREATE                 VARCHAR2(40 CHAR)           NOT NULL,
+    AGNT_UPDATE                 VARCHAR2(40 CHAR)           NOT NULL,
+
+Please check below column data type is corect ?
+    CD_TP_MOVEMENT_STATUS        NUMBER(2, 0)                NOT NULL,
+    CODE                        VARCHAR2(50 CHAR)           NOT NULL,
+
+
+ACCOUNTBRIDGE_ADMIN.TP_TRANSACTION_STATUS 
+Please check below column data type is corect ?
+
+      AGNT_CREATE                 VARCHAR2(40 CHAR)           NOT NULL,
+    AGNT_UPDATE                 VARCHAR2(40 CHAR)           NOT NULL,
+    CD_TP_TRANSACTION_STATUS    NUMBER(2, 0)                NOT NULL,
+    DS_TP_TRANSACTION_STATUS    VARCHAR2(200 CHAR)          NOT NULL,

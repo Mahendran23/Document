@@ -1,0 +1,75 @@
+
+------------------------------
+Clearmack for security  
+
+
+Reactive Programe training  with sreeshma and sai
+
+Testing related technical queries posted recently in Yammer - awaiting inputs
+KM Governance Actions
+
+
+===================Pending===========
+
+Udemy : Sprint boot and Reactive Programming
+
+chandramouli1504@gmail.com/Mouli@1504
+
+
+Send the sonarqube report to  Rajes with update info.
+Need to setup mirak and f2 envionment and study.
+
+
+To understan the api, contract, integration testing
+
+Understanding the architectural docs.
+
+Michel:
+Need to check the  GIT repo for COB.
+How to check the container for POC.
+Test environment readyness with country end point test.
+Faster Claim Settlement Process during COVID-19 lockdown
+
+
+
+==================================================
+Archtect meeting with Alberto .
+
+
+1.Feature taggle   :
+	UI  hit the one palm to get a dump thru end point
+	MW process the  dump as per F2E annodations	
+	Country Flag to be set in the  touch point platform	
+	Platform configurations to be done.
+
+Cassandra code base
+
+IMPORTANT : TimeSheet, LMS & Telecommuting : Seriousness of not adhering
+
+==========Imporant Links==================
+
+If you have access to Confluence, you can go through road map from the below link:
+
+https://confluence-modelbank.ing.net/pages/viewpage.action?pageId=87887560
+
+Also Portfolio wall of Obeya in Service now gives details at Feature level which is planned every quarter:
+
+https://ing.service-now.com/nav_to.do?uri=%2Fportfoliowall.do
+
+Sorry for the late response as I had issues accessing my VDI in the last week.
+
+
+
+
+TouchPoint Architecture (TPA)  : https://touchpoint.ing.net/forge/product/44891/documentation/latest/index
+OnePAM : https://touchpoint.ing.net/forge/product/14493/documentation/latest/index
+
+Specifically w.r.t. Peer Tokens that we are talking about in this email,
+
+Access Tokens : https://touchpoint.ing.net/forge/product/44891/documentation/latest/concepts/access-tokens
+Peer Tokens : https://touchpoint.ing.net/forge/product/44891/documentation/latest/concepts/peer-trust
+
+
+==============================Free Learning=======
+https://courses.in28minutes.com/p/spring-boot-for-beginners-in-10-steps
+https://www.springboottutorial.com/spring-boot-application-configuration-with-yaml

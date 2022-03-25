@@ -1,0 +1,12 @@
+https://www.youtube.com/watch?v=IK26KdGRl48&list=PLnXn1AViWyL70R5GuXt_nIDZytYBnvBdd
+https://www.youtube.com/watch?v=h7Lb6gX4ZoU&list=PLnXn1AViWyL70R5GuXt_nIDZytYBnvBdd&index=18
+
+
+to create the reactive web client
+:
+
+dependencies
+
+Spring Reactive Web 
+Lombok 
+

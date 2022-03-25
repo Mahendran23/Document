@@ -1,0 +1,11 @@
+https://www.youtube.com/watch?v=PT-HPH4C-_k&t=189s
+https://www.youtube.com/watch?v=YxrbpwqRC8Y
+
+https://rules.sonarsource.com/java/RSPEC-106
+
+
+
+mvn clean package sonar:sonar -Dmaven.test.skip=true to load  the project to sonar for scannng
+mvn clean install -Dmaven.test.skip=true
+
+https://docs.sonarqube.org/display/PLUG/Writing+Custom+Java+Rules+101 14
